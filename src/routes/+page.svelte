@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import { Canvas } from 'svelte-canvas'
+    import Logo from "./components/Logo.svelte";
+</script>
+<style>
+</style>
+<Canvas width={1152} height={640}>
+    <Logo />
+</Canvas>
