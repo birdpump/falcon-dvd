@@ -14,7 +14,7 @@
     // Use onMount to ensure code runs only in the browser
     onMount(() => {
         logo = new Image();
-        logo.src = "/falcon-dvd/falcon1.png"; // Load the image
+        logo.src = "/falcon-dvd/falcon.png"; // Load the image
         logo.onload = () => {
             imageLoaded = true; // Set imageLoaded to true when the image is fully loaded
 
