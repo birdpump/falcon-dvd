@@ -3,7 +3,7 @@
     import { onMount } from 'svelte';
 
     let logo;
-    const w = 603 / 3, h = 494 / 3; // Set image dimensions
+    const w = 603 / 4, h = 494 / 4; // Set image dimensions
 
     let x = 0,
         y = 0,
@@ -36,8 +36,8 @@
         context.fillRect(0, 0, width, height); // Fill the entire canvas with the background color
 
         // Move the image position
-        x += 3.2 * xflip;
-        y += 3.2 * yflip;
+        x += 2 * xflip;
+        y += 2 * yflip;
 
         // Flip the direction when hitting the edge of the canvas
         if (x <= 0 || x + w >= width) xflip *= -1;
